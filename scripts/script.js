@@ -23,7 +23,7 @@ const getProduct = function () {
       const row = document.getElementById("row")
       arrayOfProduct.forEach((item) => {
         row.innerHTML += `
-              <div class="col-12 col-md-4 col-lg-3 text-center m-3">
+              <div class="col-12 col-md-4 col-lg-3 text-center m-1">
                 <div class="card h-100 d-flex flex-column align-items-center">
                     <img src="${
                       item.imageUrl
