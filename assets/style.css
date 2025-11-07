@@ -1,0 +1,38 @@
+body {
+  background-color: teal;
+}
+
+nav {
+  background-color: cadetblue;
+}
+
+nav h3 {
+  font-size: 2em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+main h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: silver;
+}
+
+.btn {
+  background-color: cadetblue;
+  padding: 0.4em;
+}
+
+.card {
+  border-radius: 30px;
+  background-color: rgb(3, 202, 202);
+}
+
+.card img {
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.card p {
+  font-size: 1.4em;
+}
