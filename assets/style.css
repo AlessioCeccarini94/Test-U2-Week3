@@ -1,9 +1,9 @@
 body {
-  background-color: teal;
+  background-color: rgb(255, 210, 154);
 }
 
 nav {
-  background-color: cadetblue;
+  background-color: rgb(168, 115, 0);
 }
 
 nav h3 {
@@ -15,17 +15,18 @@ nav h3 {
 main h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
-  color: silver;
+  color: rgb(168, 115, 0);
 }
 
 .btn {
-  background-color: cadetblue;
+  background-color: rgb(255, 210, 154);
   padding: 0.4em;
+  color: rgb(0, 0, 0);
 }
 
 .card {
   border-radius: 30px;
-  background-color: rgb(3, 202, 202);
+  background-color: rgb(168, 115, 0);
 }
 
 .card img {
@@ -35,4 +36,5 @@ main h1 {
 
 .card p {
   font-size: 1.4em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
