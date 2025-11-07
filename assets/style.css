@@ -38,3 +38,7 @@ main h1 {
   font-size: 1.4em;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
+#col-form {
+  background-color: rgb(168, 115, 0);
+}

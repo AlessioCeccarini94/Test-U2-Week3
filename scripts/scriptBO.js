@@ -61,6 +61,7 @@ const addProduct = function (item) {
     .then((res) => {
       if (res.ok) {
         res.json()
+        alert("prodotto salvato")
       } else {
         throw new Error(res.status)
       }
