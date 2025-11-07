@@ -31,7 +31,7 @@ const details = function () {
       document.getElementById("price").innerText = productDetail.price + "€"
 
       const imgContainer = document.getElementById("img-container")
-      imgContainer.innerHTML = `<img src=" ${productDetail.imageUrl}" class="card-img-top" alt="..." id="imageUrl"/>`
+      imgContainer.innerHTML = `<img src=" ${productDetail.imageUrl}" class="card-img-top w-100" alt="..." id="imageUrl"/>`
     })
     .catch((err) => {
       console.log(err)
